@@ -1,13 +1,18 @@
-﻿{
+{
   "version": "1.0.0-*",
   "buildOptions": {
     "emitEntryPoint": true
   },
 
   "dependencies": {
+			"DSharpPlus": "3.2.3",
+			"DSharpPlus.CommandsNext": "3.2.3",
+    "DSharpPlus.Interactivity": "3.2.3",
+    "DSharpPlus.VoiceNext": "3.2.3",
+    "DSharpPlus.WebSocket.WebSocket4NetCore": "3.2.3",
     "Microsoft.NETCore.App": {
-      "type": "platform",
-      "version": "1.0.1"
+        "type": "platform",
+        "version": "1.0.1"
     }
   },
 
